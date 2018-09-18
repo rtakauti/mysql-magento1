@@ -1,6 +1,7 @@
 FROM mariadb
 MAINTAINER Rubens Takauti <rtakauti@hotmail.com>
 
+ENV MYSQL_USER root
 ENV MYSQL_DATABASE magento1
 ENV MYSQL_ROOT_PASSWORD 123
 
